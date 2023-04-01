@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0%;
+  background-color:snow;
+
+}
+
+.root {
+  height: 600px;
+  width: 600px;
+  border: 2px solid rgb(0, 255, 98);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  border-width: 8px;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+
+}
+
+.data {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  flex-direction: column;
+}
+.datafirst {
+  height: 200px;
+  width: 100%;
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightData {
+  height: 60px;
+  width: 40%;
+  display: grid;
+}
+
+.rightData input {
+  border: none;
+  border-bottom: 2px solid royalblue;
+  font-weight: bold;
+  color:green;
+}
+
+.leftData {
+  height: 60px;
+  width: 40%;
+  display: grid;
+}
+
+.leftData select {
+  border: none;
+  border-bottom: 2px solid royalblue;
+}
+
+.datasecond {
+  height: 80px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.datasecond p {
+  border-bottom: 2px solid royalblue;
+  color: blue;
+  font-weight: bold;
+}
+
+button {
+  height: 70px;
+  width: 80%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: royalblue;
+  font-weight: bold;
+  background-color: blue;
+}
+button:hover{
+  color: springgreen;
+}
